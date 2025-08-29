@@ -1,25 +1,24 @@
-# 📒 Arrays
+# Arrays
 
 - **Definition**: Linear data structure, stores elements in **contiguous memory**.  
 - **Access**: Direct using index → `arr[i]`.  
 - **Size**: Fixed (static arrays), dynamic in some languages (ArrayList in Java, list in Python).
 ---
-
 ## 🔹 Basic Operations & Complexities
 
-| Operation                  | Description                                        | Time Complexity |
-| -------------------------- | -------------------------------------------------- | --------------- |
-| [Create Array](#create-array-in-java) | Declare & initialize array                  | **O(1)**        |
-| [Access](#access)          | Direct index access                                | **O(1)**        |
-| [Linear Search](#linear-search) | Search unsorted array                        | **O(n)**        |
-| [Binary Search](#binary-search) | Search sorted array                          | **O(log n)**    |
-| [Add-Last](#add-last)      | Insert at end                                     | **O(1)/O(n)**   |
-| [Add-First](#add-first)    | Insert at beginning                               | **O(n)**        |
-| [Add-Middle](#add-middle)  | Insert at middle                                  | **O(n)**        |
-| [Delete-Last](#delete-last)| Remove last element                               | **O(1)**        |
-| [Delete-First](#delete-first)| Remove first element                            | **O(n)**        |
-| [Delete-Middle](#delete-middle)| Remove middle element                        | **O(n)**        |
-| [Traverse](#traverse)      | Visit each element once                           | **O(n)**        |
+| Operation                            | Description                | Time Complexity |
+| ------------------------------------ | -------------------------- | --------------- |
+| [Create Array](#create\ array\ java) | Declare & initialize array | **O(1)**        |
+| [Access](#access)                    | Direct index access        | **O(1)**        |
+| [Linear Search](#linear-search)      | Search unsorted array      | **O(n)**        |
+| [Binary Search](#binary-search)      | Search sorted array        | **O(log n)**    |
+| [Add-Last](#add-last)                | Insert at end              | **O(1)/O(n)**   |
+| [Add-First](#add-first)              | Insert at beginning        | **O(n)**        |
+| [Add-Middle](#add-middle)            | Insert at middle           | **O(n)**        |
+| [Delete-Last](#delete-last)          | Remove last element        | **O(1)**        |
+| [Delete-First](#delete-first)        | Remove first element       | **O(n)**        |
+| [Delete-Middle](#delete-middle)      | Remove middle element      | **O(n)**        |
+| [Traverse](#traverse)                | Visit each element once    | **O(n)**        |
 
 ---
 
@@ -42,11 +41,10 @@
 
 ---
 
-# 📒 Arrays – Operations Snippets
+# Arrays – Operations Snippets
 
 ---
-
-## Create Array in Java
+## Create Array Java
 ```java
 int[] arr1 = {10,20,30}; // Known size and data
 int[] arr2 = new int[3]; // Known size unknown data
@@ -193,3 +191,4 @@ for (int i = 0; i < n; i++) {
 }
 ```
 ---
+

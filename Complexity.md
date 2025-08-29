@@ -8,9 +8,9 @@
 - Less is Better
 - Expressed in Big-O (upper bound), Big-Ω (lower bound), Big-Θ (tight bound).
 ## Common Complexities
-- O(1): Constant → array access [[Arrays]]
-- O(log n): Logarithmic → binary search
-- O(n): Linear → linear search
+- O(1): Constant → [array Access](Data-Structues/Arrays.md#access)
+- O(log n): Logarithmic → [Binary search](Data-Structues/Arrays.md#binary-search)
+- O(n): Linear → [Linear search](Data-Structues/Arrays.md#linear-search)
 - O(n log n): Linearithmic → merge sort, quick-sort avg.
 - O(n^2): Quadratic → bubble sort, nested loops
 - O(2^n): Exponential → subset generation
@@ -25,3 +25,4 @@
 - O(n): Extra array/hash-map
 - O(n^2): DP table for grids
 - O(h): Recursion depth (h = height of recursion tree)
+<span style="display:none">[[Index]]</span>
